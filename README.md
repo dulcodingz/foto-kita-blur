@@ -1,96 +1,51 @@
-# ✌️ Peace Blur Detector
-
-A simple Computer Vision project that automatically blurs your webcam when a peace sign (✌️) is detected.
-
-Built using Python, OpenCV, and MediaPipe.
-
-## Features
-
-* Real-time webcam detection
-* Peace sign recognition
-* Automatic full-screen blur effect
-* Lightweight and beginner-friendly project
 
 ## Installation
 
-Clone this repository:
+### 1. Install Python (Skip if already installed)
 
-```bash
-git clone https://github.com/claramiadevira/foto-kita-blur.git
-cd peace-blur-detector
+Open PowerShell or Terminal:
+
+```powershell
+winget install -e --id Python.Python.3.14
 ```
 
-Install dependencies:
+Close and reopen the terminal after installation.
 
-```bash
-pip install -r requirements.txt
+### 2. Download the Project
+
+**Option A — Download ZIP**
+
+1. Open this repository.
+2. Click **Code → Download ZIP**.
+3. Extract the ZIP file.
+4. Open the extracted folder in Terminal.
+
+**Option B — Git Clone**
+
+```powershell
+git clone https://github.com/dulcodingz/foto-kita-blur.git
+cd foto-kita-blur
 ```
 
-## Run
+### 3. Install Dependencies
 
-```bash
-python blur.py
+Run inside the project folder:
+
+```powershell
+py -3.14 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
-Press `ESC` to close the application.
+### 4. Run the Application
 
-## Tech Stack
+```powershell
+.\.venv\Scripts\python.exe blur.py
+```
 
-* Python
-* OpenCV
-* MediaPipe
+## How to Use
 
-## About Me
-
-Hi, I'm Clara 👋
-
-I'm a Data Analyst, Educator, and Content Creator who enjoys sharing practical projects, AI tools, and career insights.
-
-📷 Instagram: @claratwork
-
-I regularly post:
-
-* AI experiments
-* Python projects
-* Data Analytics tips
-* Career growth content
-
----
-
-## More From Me
-
-![Data Analytics Bootcamp](assets/bootcamp-poster.png)
-
-### Data Analytics Bootcamp for Beginners
-
-3 sessions. 1 dashboard. 1 Notion portfolio.
-
-Learn:
-
-* Data Preparation with Google Sheets
-* SQL with Google BigQuery
-* Dashboard Building with Looker Studio
-* Data Analysis with Claude AI
-
-🎁 Bonus Session
-
-Build a professional Notion portfolio that you can showcase on LinkedIn.
-
-Suitable for:
-
-* Fresh Graduates
-* University Students
-* Career Switchers
-
-📅 22, 24, 26 June
-⏰ 19:00 – 21:00 WIB
-
-🔗 Register:
-bit.ly/datawithclara
-
-📷 Instagram:
-@datawithclara
-
----
-
-If you found this project useful, feel free to star ⭐ the repository and follow me for more projects.
+1. Make sure your webcam is connected.
+2. Run the application.
+3. Show a peace sign (✌️) in front of the camera.
+4. The camera view will automatically blur.
+5. Press **Q** or **ESC** to exit.
